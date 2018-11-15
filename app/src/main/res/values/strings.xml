@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">CST2335_FinalProject</string>
+
+    <string name="app_name">CST2335_FinalProject_v1.0</string>
+    <string name="Food_Button">Food Nutrition DB</string>
+    <string name="News_Button">CBC News Reader</string>
+    <string name="Movie_Button">Movie</string>
+    <string name="Bus_Button">Bus OCTranspo</string>
+
+    <string name="EnterFoodType">Enter Food Type</string>
+    <string name="textFood">Food Type</string>
+    <string name="Calories">Calories</string>
+    <string name="editCalories">Edit Calories</string>
+    <string name="fat">Fat</string>
+    <string name="editFat">Edit Fat</string>
+    <string name="Carbohydrates">Carbohydrates</string>
+    <string name="editCarbohydrates">Edit Carbohydrates</string>
+
+    <string name="searchButton">Search</string>
+    <string name="ShowList">Show the List</string>
+    <string name="searchedResult">Results</string>
+    <string name="saveToFavourite">Save To Favourite</string>
+    <string name="deleteFromFavourite">Delete</string>
+    <string name="favouriteFoodList">Favourite Food</string>
+    <string name="save_message">Are you sure to save to favourite?</string>
+    <string name="save_title">Save to Favourite</string>
+    <string name="Yes">Yes</string>
+    <string name="no">No</string>
+
 </resources>

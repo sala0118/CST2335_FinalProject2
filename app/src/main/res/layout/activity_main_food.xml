@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFoodActivity"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/EnterFoodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/EnterFoodType"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/textFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/EnterFoodType"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/Calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Calories"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/editCalories"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/fat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fat"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editFat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/editFat"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Carbohydrates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Carbohydrates"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editCarbohydrates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/editCarbohydrates"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="bottom"
+        android:onClick="@+id/searchButton"
+        android:text="@string/searchButton" />
+
+    <ProgressBar
+        android:id="@+id/foodMainBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <ListView
+        android:id="@+id/previous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+</LinearLayout>
